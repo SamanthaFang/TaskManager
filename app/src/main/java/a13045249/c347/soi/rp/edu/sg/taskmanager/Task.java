@@ -20,6 +20,13 @@ public class Task implements Serializable{
      return id;
     }
 
-    public 
+    public String gettaskname(){
+        return taskname;
+    }
+    public String getdescription(){
+        return description;
+    }
+
+
 
 }
