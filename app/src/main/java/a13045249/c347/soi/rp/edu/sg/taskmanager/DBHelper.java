@@ -28,7 +28,7 @@ public class DBHelper extends SQLiteOpenHelper {
         super(context, DATABASE_NAME, null, DATABASE_VER);
     }
 
-    public void insertTask(String description, String date){
+    public void insertTask(String description){
         // Get an instance of the database for writing
         SQLiteDatabase db = this.getWritableDatabase();
         // We use ContentValues object to store the values for
